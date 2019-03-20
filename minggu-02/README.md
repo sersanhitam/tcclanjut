@@ -3,35 +3,33 @@
 
 
 1. **Fork** adalah membuat clone dari suatu repo di GitHub milik upstream author **(pemilik repo)**, guna memproses ke komputer lokal kontributor.
-
-![](images/IMG-01.jpg)
+  ![](images/IMG-01.jpg)
 
 
 2. Kontributor harus mem-fork repo upstream author (pemilik repo) sehingga di repo kontributor muncul repo tersebut
-  
-![](images/IMG-02.jpg)
+  ![](images/IMG-02.jpg)
 
 3. Selanjutnya silahkan clone (download) repository tersebut ke komputer lokal
 
-![](images/IMG-03.jpg)
+  ![](images/IMG-03.jpg)
 
 4. Setelah melakukan clone ke komputer lokal, selanjutnya silahkan buka dengan teks editor dan lakukan modifikasi pada salah satu file yang akan di modifikasi. 
 
-![](images/IMG-04.jpg)
+  ![](images/IMG-04.jpg)
 
 
 5. Setiap kali melakukan perubahan, kirim perubahan tersebut. Pengiriman ini disebut dengan Pull Request.
 
 * Kontributor akan bekerja di repo lokal (create, update, delete isi)
-* Commit
-   ![](images/IMG-06.jpg)
-
+* Commit 
 * Push ke repo kontributor
-   ![](images/IMG-05.jpg)
-
 * Kirimkan PR ke repo upstream author(pemilik repo)
    
 6. Setelah kita selesai melakukan perubahan dan commit, langkah berikutnya adalah melakukan push
+
+   ![](images/IMG-05.jpg)
+
+   ![](images/IMG-06.jpg)
 
    ![](images/IMG-08.jpg)
 
@@ -47,6 +45,7 @@ Maka kita harus membuat Pull Request
    ![](images/IMG-11.jpg)
 
    ![](images/IMG-12.jpg)
+   
 9. Setelah itu upstream author akan melakukan review kontribusimu dan kemudian menyetujui (merge) ke master atau menolak PR.
 Jika disetujui dan di-merge oleh upstream author, akan ada tanda **Mergerd** bahwa perubahan di setujui
  
