@@ -1,36 +1,53 @@
 
 ## Kolaborasi pada Git
 
-#Fork
 
-**Fork** adalah membuat clone dari suatu repo di GitHub milik upstream author **(pemilik repo)**, guna memproses clone ke komputer local kontributor.
-Kontributor harus mem-fork repo upstream author (pemilik repo) sehingga di repo kontributor muncul repo tersebut
+1. **Fork** adalah membuat clone dari suatu repo di GitHub milik upstream author **(pemilik repo)**, guna memproses ke komputer lokal kontributor.
 
 ![](images/IMG-01.jpg)
 
-Ketika proses selesai, repo dari upstream author sudah berada di account GitHub kita sebagai (kontributor)
 
+2. Kontributor harus mem-fork repo upstream author (pemilik repo) sehingga di repo kontributor muncul repo tersebut
+  
 ![](images/IMG-02.jpg)
 
-Setelah proses tersebut, clone di komputer lokal (kontributor):
-Konfigurasikan repo lokal kontributor
+3. Selanjutnya silahkan clone (download) repository tersebut ke komputer lokal
 
 ![](images/IMG-03.jpg)
 
-#Mengirimkan Pull Request
+4. Setelah melakukan clone ke komputer lokal, selanjutnya silahkan buka dengan teks editor dan lakukan modifikasi pada salah satu file yang akan di modifikasi. 
 
-Setiap kali melakukan perubahan, kirim perubahan tersebut. Pengiriman ini disebut dengan Pull Request.
+![](images/IMG-04.jpg)
+
+
+5. Setiap kali melakukan perubahan, kirim perubahan tersebut. Pengiriman ini disebut dengan Pull Request.
 
 * Kontributor akan bekerja di repo lokal (create, update, delete isi)
 * Commit
+   ![](images/IMG-06.jpg)
+
 * Push ke repo kontributor
-* Kirimkan PR ke repo upstream author(pemilik repo).
-* Upstream author me-review dan kemudian menyetujui (merge) ke master atau menolak PR.
-  Jika disetujui dan di-merge oleh upstream author, akan ada tanda notifikas bahwa perubahan di setujui
+   ![](images/IMG-05.jpg)
 
-Berikut ini adalah contoh pengiriman perubahan isi README.md dengan menambahkan kontributor.
+* Kirimkan PR ke repo upstream author(pemilik repo)
+   
+6. Setelah kita selesai melakukan perubahan dan commit, langkah berikutnya adalah melakukan push
 
-![](images/IMG-02.jpg)
+   ![](images/IMG-08.jpg)
 
-Mencoba Kontribusi dan berkolaborasi github
+7. Pull Request adalah istilah yang bisa kita artikan sebagai permintaan untuk menggabungkan kode
+Kita sudah membuat perubahan di repository hasil fork, lalu ingin menggabungkan dengan repository sumber.
+Maka kita harus membuat Pull Request
 
+   ![](images/IMG-09.jpg)
+
+
+8. Silahkan isi judul Pull Request dan pesan yang ingin disampaikan
+
+   ![](images/IMG-11.jpg)
+
+   ![](images/IMG-12.jpg)
+9. Setelah itu upstream author akan melakukan review kontribusimu dan kemudian menyetujui (merge) ke master atau menolak PR.
+Jika disetujui dan di-merge oleh upstream author, akan ada tanda **Mergerd** bahwa perubahan di setujui
+ 
+ ![](images/IMG-13.jpg)
