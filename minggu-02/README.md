@@ -1,14 +1,12 @@
-<<<<<<< HEAD
+
 ## Kolaborasi pada Git
 
 #fork 
 Fork adalah membuat clone dari suatu repo di GitHub milik upstream author (pemilik repo),
-
-
 guna memproses clone ke komputer local kontributor.
-
+!(images/IMG-01.jpg)
 Kontributor harus mem-fork repo upstream author (pemilik repo) sehingga di repo kontributor muncul repo tersebut
-
+!(images/IMG-02.jpg)
 Ketika proses selesai, repo dari upstream author sudah berada di account GitHub kita sebagai (kontributor)
 
 Setelah proses tersebut, clone di komputer lokal (kontributor):
