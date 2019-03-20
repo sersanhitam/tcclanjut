@@ -20,10 +20,10 @@
 
 5. Setiap kali melakukan perubahan, kirim perubahan tersebut. Pengiriman ini disebut dengan Pull Request.
 
-* Kontributor akan bekerja di repo lokal (create, update, delete isi)
-* Commit 
-* Push ke repo kontributor
-* Kirimkan PR ke repo upstream author(pemilik repo)
+	* Kontributor akan bekerja di repo lokal (create, update, delete isi)
+	* Commit 
+	* Push ke repo kontributor
+	* Kirimkan PR ke repo upstream author(pemilik repo)
    
 6. Setelah kita selesai melakukan perubahan dan commit, langkah berikutnya adalah melakukan push
 
@@ -44,7 +44,6 @@ Maka kita harus membuat Pull Request
 
    ![](images/IMG-11.jpg)
 
-   ![](images/IMG-12.jpg)
    
 9. Setelah itu upstream author akan melakukan review kontribusimu dan kemudian menyetujui (merge) ke master atau menolak PR.
 Jika disetujui dan di-merge oleh upstream author, akan ada tanda **Mergerd** bahwa perubahan di setujui
