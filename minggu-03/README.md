@@ -1,6 +1,6 @@
 # Implementasi Docker menggunakan Katacoda
 
-## Apa Itu Docker ? Apa Itu Katacoda ?
+## Apa itu Docker ? Apa itu Katacoda ?
 
 > _[**Docker**](https://www.docker.com/)  adalah sebuah project open source yang ditujukan untuk developer atau sysadmin untuk membangun, mengemas dan menjalankan aplikasi dimana pun di dalam sebuah container._
 > 
