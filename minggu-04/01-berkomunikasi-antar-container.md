@@ -1,4 +1,4 @@
-# Docker - Berkomunikasi Antar Container
+# Komunikasi Antar Container
 
 1. Start Redis
 > Start Data Store
