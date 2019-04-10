@@ -1,19 +1,22 @@
 # Jaringan Docker
 
-**Langkah pertama** - adalah membuat jaringan menggunakan CLI(command). 
+**Langkah pertama** - adalah membuat jaringan menggunakan CLI(command)
 Jaringan ini akan memungkinkan untuk melampirkan banyak container yang akan dapat saling berhubungan.
 
 Dalam contoh ini, kita akan mulai dengan membuat jaringan backend. Semua kontainer yang melekat pada backend akan berada di jaringan ini.
 > Membuat jaringan
+
 ![](images/2.1.jpg)
 
 > Mengkoneksikan antar jaringan
+
 ![](images/2.2.jpg)
 
 
 **Langkah kedua** - Komunikasi antar jaringan
 
 Hal pertama yang perlu perhatikan adalah bahwa Docker tidak lagi menetapkan variabel dalam memperbarui file host dari container. 
+
 ![](images/2.3.jpg)
 
 ![](images/2.4.jpg)
