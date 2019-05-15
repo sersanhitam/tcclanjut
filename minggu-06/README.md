@@ -1,6 +1,6 @@
 ## Docker Orchestration - Getting Started With Swarm Mode
 
-##### 1 -  Menginisialisasi Mode Swarm
+#### 1 -  Menginisialisasi Mode Swarm
 
 Ubah satu host host Docker menjadi Mode Swarm Docker Multi-host. Menjadi Manajer Secara default, Docker berfungsi sebagai node-tunggal yang terisolasi. Semua kontainer hanya dikerahkan ke mesin. Mode Swarm mengubahnya menjadi mesin multi-host cluster-aware.
 
@@ -25,7 +25,7 @@ Setelah menjalankan perintah, Docker Engine tahu cara bekerja dengan cluster dan
 Pada langkah berikutnya, kita akan menambahkan lebih banyak node dan menggunakan kontainer di seluruh host ini.
 
 
-##### 2 - Bergabung dengan Cluster
+#### 2 - Bergabung dengan Cluster
 
 Dengan Mode Swarm diaktifkan, dimungkinkan untuk menambahkan node tambahan dan mengeluarkan perintah di semuanya. Jika node hilang, misalnya, karena crash, kontainer yang berjalan pada host tersebut akan secara otomatis dijadwal ulang ke node lain yang tersedia. Penjadwalan ulang memastikan Anda tidak kehilangan kapasitas dan menyediakan ketersediaan tinggi.
 
@@ -52,7 +52,7 @@ Secara default, manajer akan secara otomatis menerima node baru yang ditambahkan
 ![09](images/README.09.2.jpg)
 
 
-##### 3 -  Buat Overlay Network
+#### 3 -  Buat Overlay Network
 
 Mode Swarm juga memperkenalkan model jaringan yang ditingkatkan. Dalam versi sebelumnya, Docker mengharuskan penggunaan penyimpanan nilai kunci eksternal, seperti Konsul, untuk memastikan konsistensi di seluruh jaringan. Kebutuhan akan konsensus dan KV kini telah dimasukkan secara internal ke dalam Docker dan tidak lagi tergantung pada layanan eksternal.
 
@@ -70,7 +70,7 @@ Error diatas diakibatkan karna sudah terdapat network bernama skynet kita dapat 
 
 ![10](images/README.10.1.jpg)
 
-##### 4 -  Deploy Service
+#### 4 -  Deploy Service
 
 Secara default, Docker menggunakan model replikasi penyebaran untuk memutuskan kontainer mana yang harus dijalankan pada host mana. Pendekatan penyebaran memastikan bahwa kontainer digunakan di seluruh cluster secara merata. Ini berarti bahwa jika salah satu node dihapus dari cluster, instance akan sudah berjalan di node lain. Beban kerja Thr pada node yang dihapus akan dijadwal ulang di seluruh node yang tersedia.
 
@@ -109,7 +109,7 @@ Jika kami mengeluarkan permintaan HTTP ke port publik, permintaan itu akan dipro
 ![11](images/README.11.4.jpg)
 
 
-##### 5 -  Inspect State
+#### 5 -  Inspect State
 
 Konsep Layanan memungkinkan Anda untuk memeriksa kesehatan dan keadaan cluster Anda dan aplikasi yang berjalan. Dalam hal ini, setiap tugas adalah kontainer
 
@@ -139,7 +139,7 @@ Dengan menggunakan ID sebuah node, Anda dapat melakukan query masing-masing host
 Pada langkah berikutnya, kita akan meningkatkan skala layanan untuk menjalankan lebih banyak instance dari kontainer.
 
 
-##### 6 -  Scale Service
+#### 6 -  Scale Service
 
 Layanan memungkinkan kita untuk mengukur berapa banyak contoh tugas yang berjalan di seluruh cluster. Karena memahami cara meluncurkan kontainer dan kontainer mana yang sedang berjalan, ia dapat dengan mudah memulai, atau mengeluarkan, kontainer seperti yang diperlukan. Saat ini penskalaannya adalah manual. Namun, API dapat dihubungkan ke sistem eksternal seperti dasbor metrik.
 
