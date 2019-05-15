@@ -1,6 +1,6 @@
 ## Orchestration using Docker Compose
 
-##### 1 -  Menentukan Kontainer Pertama
+#### 1 -  Menentukan Kontainer Pertama
 
 Docker Compose didasarkan pada file docker-compose.yml. File ini mendefinisikan semua kontainer dan pengaturan yang Anda butuhkan untuk meluncurkan kumpulan cluster Anda. Properti memetakan ke bagaimana Anda menggunakan perintah menjalankan buruh pelabuhan, bagaimanapun, sekarang disimpan dalam kontrol sumber dan dibagikan bersama dengan kode Anda.
 
@@ -21,7 +21,7 @@ Ini akan mendefinisikan kontainer yang disebut web, yang didasarkan pada pembang
 ![01](images/README.01.jpg)
 
 
-##### 2 - Menentukan Pengaturan
+#### 2 - Menentukan Pengaturan
 
 Docker Compose mendukung semua properti yang dapat didefinisikan menggunakan
 
@@ -37,11 +37,9 @@ Format yang sama digunakan untuk properti lain seperti port
 
 ![02](images/README.02.jpg)
 
-Tugas:
+>Tugas: Perbarui kontainer web  untuk mengekspos port 3001 dan buat tautan ke kontainer Redis.
 
- Perbarui kontainer web  untuk mengekspos port 3001 dan buat tautan ke kontainer Redis.
-
-#####  3 -  Mendefinisikan Kontainer Kedua
+####  3 -  Mendefinisikan Kontainer Kedua
 
 Pada langkah sebelumnya, Kita menggunakan Dockerfile di direktori saat ini sebagai dasar untuk kontainer Kita. Pada langkah ini, Kita ingin menggunakan gambar yang ada dari Docker Hub sebagai kontainer kedua.
 
@@ -56,21 +54,20 @@ Tentukan kontainer kedua dengan nama redis yang menggunakan gambar redis. Mengik
 ![03](images/README.03.jpg)
 
 
-#####  4 -  Docker Up
+####  4 -  Docker Up
 
 Dengan file docker-compose.yml dibuat di tempat, Anda dapat meluncurkan semua aplikasi dengan satu perintah ```up```. Jika Anda ingin memunculkan satu kontainer, maka Anda dapat menggunakan ```up <nama>```.
 
 Argumen -d menyatakan untuk menjalankan kontainer di latar belakang, mirip dengan saat digunakan dengan ```docker run```.
 
-Tugas:
+>Tugas: Luncurkan aplikasi Anda menggunakan 
 
-Luncurkan aplikasi Anda menggunakan 
 ```docker-compose up -d```
 
 ![04](images/README.04.jpg)
 
 
-#####  5 -  Manajemen Docker
+####  5 -  Manajemen Docker
 
 Docker Compose tidak hanya dapat mengelola kontainer awal tetapi juga menyediakan cara mengelola semua kontainer menggunakan satu perintah.
 
@@ -98,15 +95,13 @@ Perintah lain mengikuti pola yang sama. Temukan mereka dengan mengetik
 ![05](images/README.05.8.jpg)
 
 
-#####  6 -  Docker Scale
+####  6 -  Docker Scale
 
 Karena Docker Compose memahami cara meluncurkan kontainer aplikasi, itu juga dapat digunakan untuk mengukur jumlah kontainer yang berjalan.
 
 Scale option memungkinkan Anda untuk menentukan layanan dan jumlah instance yang Anda inginkan. Jika angkanya lebih besar dari instans yang sudah berjalan, maka akan meluncurkan kontainer tambahan. Jika jumlahnya kurang, maka itu akan menghentikan kontainer yang tidak diminta.
 
-Tugas:
-
-Skala jumlah kontainer web yang Anda jalankan menggunakan perintah 
+>Tugas: Skala jumlah kontainer web yang Anda jalankan menggunakan perintah 
 
 ```docker-compose scale web = 3```
 
@@ -119,7 +114,7 @@ Anda dapat menurunkannya kembali menggunakan
 ![06](images/README.06.1.jpg)
 
 
-#####  7 -  Docker Stop
+####  7 -  Docker Stop
 
 Seperti ketika kami meluncurkan aplikasi, untuk menghentikan satu set kontainer, Anda dapat menggunakan perintah 
 
