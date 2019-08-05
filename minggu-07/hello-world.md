@@ -30,16 +30,16 @@
 
     Fungsi fmt.Printf() digunakan untuk menampilkan output dalam bentuk tertentu.
 
-    \n fdigunakan untuk memunculkan baris baru di akhir (seperti fungsi <br>) 
+    
 
 2. Menjalankan file main.go melalui command prompt
 
-    ![](hello-world/1.1.jpg)
+    ![](hello/1.1.jpg)
 
 3. Mengakses halaman utama dari alamat [http://localhost:8080](http://localhost:8080)
 
-    ![](hello-world/1.2.jpg)
+    ![](hello/1.2.jpg)
 
 4. Mengakses halaman home dari alamat [http://localhost:8080/home](http://localhost:8080/home)
 
-    ![](hello-world/1.3.jpg)
+    ![](hello/1.3.jpg)

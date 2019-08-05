@@ -7,7 +7,7 @@
 
 1. Melakukan instalasi gorilla/mux dengan perintah "go get -u github.com/gorilla/mux"
 
-    ![](gorilla-mux/1.png)
+    ![](gorilla/2.1.jpg)
 
 2. Membuat file router.go 
 
@@ -45,8 +45,8 @@
 
 3. Menjalankan router.go 
 
-    ![](gorilla-mux/2.png)
+    ![](gorilla/2.2.jpg)
 
 4. Mengakses halaman router.go dengan parameter title : JudulBuku dan page : 10
 
-    ![](gorilla-mux/3.png)
+    ![](gorilla/2.3.jpg)
